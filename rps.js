@@ -26,8 +26,8 @@ function playGame() {
 
         console.log(`Computer chose: ${getComputerChoice}`);
 
-        let getHumanChoice = prompt("Choose: 'Rock', 'Paper', 'Scissors'")
-
+        let getHumanChoice = "rock"
+// prompt("Choose: 'Rock', 'Paper', 'Scissors'")
     
 
         console.log(`You chose: ${getHumanChoice}`)
