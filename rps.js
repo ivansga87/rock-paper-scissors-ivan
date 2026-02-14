@@ -26,17 +26,17 @@ function playGame() {
 
         console.log(`Computer chose: ${getComputerChoice}`);
 
-        let getHumanChoice = "rock"
+        let getHumanChoice = "rock";
         // prompt("Choose: 'Rock', 'Paper', 'Scissors'")
 
 
-        console.log(`You chose: ${getHumanChoice}`)
+        console.log(`You chose: ${getHumanChoice}`);
 
-        const computerChoice = getComputerChoice.at(0).toUpperCase() + getComputerChoice.slice(1).toLowerCase()
+        const computerChoice = getComputerChoice.at(0).toUpperCase() + getComputerChoice.slice(1).toLowerCase();
 
-        const humanChoice = getHumanChoice.at(0).toUpperCase() + getHumanChoice.slice(1).toLowerCase()
+        const humanChoice = getHumanChoice.at(0).toUpperCase() + getHumanChoice.slice(1).toLowerCase();
 
-        playRound(computerChoice, humanChoice)
+        playRound(computerChoice, humanChoice);
 
 
 
@@ -77,10 +77,10 @@ function playRound(computerChoice, humanChoice) {
     }
 
 
-    console.log(`The score is: computer: ${computerScore} | You: ${humanScore} `)
+    console.log(`The score is: computer: ${computerScore} | You: ${humanScore} `);
 
 
-}
+};
 
 
 
@@ -94,9 +94,9 @@ function finalScore() {
     else console.log(`You win!, the final score is: Computer: ${computerScore} | You: ${humanScore}`)
 
 
-}
+};
 
 
-playGame()
+playGame();
 
-finalScore()
+finalScore();
