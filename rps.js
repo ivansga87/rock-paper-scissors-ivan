@@ -19,7 +19,7 @@ function playGame() {
         if (getComputerChoice === 1) {
             getComputerChoice = "Rock"
         }
-        else if (getComputerChoice === 2) {
+        if (getComputerChoice === 2) {
             getComputerChoice = "Paper"
         }
         else getComputerChoice = "Scissors"
