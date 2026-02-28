@@ -1,0 +1,31 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#display {
+    white-space: pre-line;
+    color: red;
+    font-size: 48px;
+}
+
+#score {
+     white-space: pre-line;
+}
+
+button{
+    border-radius: 5px;
+    width: 150px;
+    font-family: fantasy;
+    }
+
+button:hover{
+      scale: 1.05;
+      transition: transform 0.1s ease;
+}
+
+button:active{
+    scale: 1;
+    transition: transform 0.1s ease;
+}
